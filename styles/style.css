@@ -25,24 +25,22 @@ footer {
 
 .container-top {
   padding-top: 100px;
+  text-align: center;
 }
 
-.elem1 {
+.top-heading {
   font-family: "Raleway";
   font-size: 36px;
   color: #212121;
-  text-align: center;
-  margin: 0 auto;
 }
 
-.elem2 {
-  margin: 0 auto;
-  margin-top: 25px;
+.top-red-line {
+  margin: 25px auto;
   width: 64px;
   border-top: 2px solid red;
 }
 
-.elem3 {
+.top-text {
   margin-top: 25px;
 
   font-family: "Open Sans";
@@ -72,7 +70,7 @@ footer {
   align-items: center;
 }
 
-.cont-1 {
+.heading-image {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +81,7 @@ footer {
   border-radius: 50%;
 }
 
-.cont-2 {
+.heading-text {
   height: 29px;
   font-family: "Open Sans";
   font-weight: 700;
@@ -92,7 +90,7 @@ footer {
   margin: 30px 0 0;
 }
 
-.cont-3 {
+.content-heading-test {
   font-family: "Open Sans";
   font-size: 14px;
   line-height: 19px;
@@ -103,42 +101,43 @@ footer {
 
 .section-background {
   background: center url(../images/4.png);
+  text-align: center;
 }
 .section-background-fog {
   background: rgb(0, 0, 0, 0.65);
   height: 326px;
 }
 
-.elem4 {
+.background-heading {
   font-family: "Raleway";
   font-size: 36px;
   padding-top: 76px;
   color: #ffffff;
-  text-align: center;
 }
 
-.elem5 {
-  margin: 0 auto;
-  margin-top: 25px;
+.background-white-line {
+  margin: 25px auto;
   width: 64px;
   border-top: 2px solid white;
 }
 
-.elem6 {
+.background-text {
   font-family: "Raleway";
   font-weight: 300;
   color: white;
-  text-align: center;
 }
 
 .section-button {
-  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
   width: 135px;
+  height: 42px;
   border: 1px solid #ffffff;
   margin: 30px auto;
 }
 
-.elem7 {
+.button-text {
   font-family: "Open Sans";
   font-weight: 600;
   font-size: 15px;
